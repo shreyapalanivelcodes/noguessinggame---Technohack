@@ -1,24 +1,46 @@
 # Number Guessing Game
 
-A simple number guessing game built in Java. The program selects a random number between 1 and 100, and the player has to guess it. The game provides feedback if the guess is too high or too low and tracks the number of attempts.
+A simple number guessing game built using Java.
 
 ## Features
 
-- Generates a random number between 1 and 100
-- Provides feedback on guesses (too high or too low)
-- Tracks and displays the number of attempts taken to guess correctly
+- The computer selects a random number between 1 and 100.
+- The player attempts to guess the number.
+- Feedback is provided whether the guess is too high, too low, or correct.
+- The number of attempts is displayed when the correct number is guessed.
 
-## Usage
+## Requirements
 
-1. Compile the Java file:
-    ```sh
+- Java Development Kit (JDK) installed
+
+## Setup and Installation
+
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/yourusername/number-guessing-game.git
+    cd number-guessing-game
+    ```
+
+2. **Compile the application**:
+    ```bash
     javac numberguessinggame.java
     ```
 
-2. Run the compiled class:
-    ```sh
+3. **Run the application**:
+    ```bash
     java numberguessinggame
     ```
+
+## Usage
+
+1. Run the game using the above commands.
+2. Enter your guess when prompted.
+3. Continue guessing until you find the correct number.
+4. The game will display the number of attempts it took to guess the number correctly.
+
+## Contribution
+
+Feel free to fork this repository and make improvements. Pull requests are welcome!
 
 ## License
 
